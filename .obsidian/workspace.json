@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "b204510e3854c1ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e470474493938ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a6d579bd801fc4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kubernetes/0-basics/example/app/README.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3c25ecaee5c09a27",
+    "type": "split",
+    "children": [
+      {
+        "id": "c92a4e0e38a72b83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b52c2773ade8cb39",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e5547bca971a8511",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b18c15a58a26af11",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ece6dfba538e2065",
+    "type": "split",
+    "children": [
+      {
+        "id": "3797e8fffd1006d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e093fff2e22025cc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "kubernetes/0-basics/example/app/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f55cd42c6c58b984",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "kubernetes/0-basics/example/app/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "139fbfe6addd3b66",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "37f450c49cb7adb9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "kubernetes/0-basics/example/app/README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "6a6d579bd801fc4a",
+  "lastOpenFiles": [
+    "kubernetes/index.md",
+    "kubernetes/0-basics/example/app/README.md",
+    "kubernetes/0-basics/example/app/README.md~",
+    "kubernetes/0-basics/example/app/deployment/app.yaml~",
+    "kubernetes/0-basics/basics.md",
+    "kubernetes/0-basics/example/app/Dockerfile~",
+    "kubernetes/0-basics/example/app/index.html~",
+    "kubernetes/0-basics/example/app/deployment/app.yaml",
+    "kubernetes/0-basics/example/app/deployment",
+    "kubernetes/0-basics/example/app/Dockerfile",
+    "kubernetes/0-basics/example/app/index.html",
+    "kubernetes/0-basics/example/app",
+    "kubernetes/0-basics/example",
+    "kubernetes/first-steps/relation.draw.md",
+    "kubernetes/first-steps/first-deployment/5_self-healing-scaling.md",
+    "kubernetes/first-steps/first-deployment/6_creating-the-app-end-to-end.md",
+    "kubernetes/first-steps/first-deployment/4_explore-the-cluster.md",
+    "kubernetes/first-steps/first-deployment/3_exposing-the-app.md",
+    "kubernetes/first-steps/first-deployment/1_creating-resources.md",
+    "kubernetes/first-steps/first-deployment/0_first-deployment.md",
+    "kernel/0_info.md",
+    "kubernetes/first-steps/connecting-the-points.md",
+    "kubernetes/first-steps/setting-up-local-env.md",
+    "kubernetes/first-steps/first-deployment/kube/draw_ingress.md",
+    "kubernetes/first-steps/connecting-deployment-and-service.md",
+    "kubernetes/first-steps/base-kubernetes-overview.md",
+    "kubernetes/first-steps/base-container-overview.md",
+    "kubernetes/overview/first-deployment/kube/draw_ingress.md",
+    "kubernetes/first-steps/README.md",
+    "kubernetes/overview/first-deployment/4_explore-the-cluster.md",
+    "kubernetes/overview/first-deployment/6_creating-the-app-end-to-end.md",
+    "kubernetes/overview/first-deployment/6_Creating-the-app-end-to-end.md",
+    "kubernetes/overview/first-deployment/5_self-healing-scaling.md",
+    "kubernetes/overview/first-deployment/3_exposing-the-app.md",
+    "kubernetes/overview/first-deployment/1_creating-resources.md"
+  ]
+}
