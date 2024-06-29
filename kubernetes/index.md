@@ -8,13 +8,26 @@ The application running as container in a Pod. It's the smallest deployable unit
 
 The Deployment is a recipe to create more Pods. You define what the Pod should look like and how many instances you need. The Deployment monitors the Pods & automatically creates or deletes a Pod to match the number of instances requested.
 
+# Service
+
+Internal load balancers are called **Services**. ("interal only"). Services can be exposed in different ways by specifying a `type` in the spec of the Service
+
+- `ClusterIP` (default) - Exposes the Service on an internal IP in the cluster. This type makes the Service only reachable from within the cluster.
+- `NodePort` - Exposes the Service on the same port of each selected Node in the cluster using NAT. Makes a Service accessible from outside the cluster using `<NodeIP>`:`<NodePort>`. Superset of ClusterIP.
+- `LoadBalancer` - Creates an external load balancer in the current cloud (if supported) and assigns a fixed, external IP to the Service. Superset of NodePort.
+- `ExternalName` - Maps the Service to the contents of the externalName field (e.g. foo.bar.example.com), by returning a `CNAME` record with its value. No proxying of any kind is set up. This type requires v1.7 or higher of kube-dns, or CoreDNS version 0.0.8 or higher.
+
+Services match a set of Pods using `labels` and `selectors`
+
+![[Pasted image 20240615182051.png]]
+
 # Selector
 
 `spec.selector` field is used to select which Pods the Deployment should look after.
 
-# Service
+# Labels
 
-Internal load balancers are called **Services**. ("interal only")
+Labels can be attached to objects at creation time or later on. They can be modified at any time.
 
 # Ingress
 
@@ -29,6 +42,18 @@ Namespaces are only a logical grouping. There is no built-in security mechanism.
 # Resource
 
 Kubernetes resource definitions are also called "resource manifests" or "resource configurations"
+
+# Kubelet
+
+Each node has a Kubelet, which is an agent for managing the node and communicating with the Kubernetes control plane.
+
+# etcd
+
+Consistent and highly-available key value store used as Kubernetes' backing store for all cluster data.
+
+# Control Plane
+
+Manages the cluster and the nodes that are used to host the running applications. The `Control Plane` coordinates all activities in your cluster, such as scheduling applications, maintaining applications' desired state, scaling applications, and rolling out new updates.
 
 # YAML
 
